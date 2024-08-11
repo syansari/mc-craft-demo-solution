@@ -1,8 +1,12 @@
 package io.mc.demo;
 
 import io.mc.demo.model.LinkInfo;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Optional;
+
+import static com.google.common.base.Preconditions.checkArgument;
+import static java.util.Objects.requireNonNull;
 
 /**
  * Responsible for extracting link and convert to HTML anchor tag.
@@ -15,6 +19,9 @@ public final class LinkParagraphExtractor {
      * @return HTML anchor tags as {@link String}
      */
     public String extractLinkAndParagraph(String text) {
+
+        requireNonNull(text, "text must not be null");
+        checkArgument(StringUtils.isNotBlank(text), "text must not be blank");
 
         StringBuilder result = new StringBuilder();
         int currentIndex = 0;
