@@ -1,5 +1,5 @@
 
-# Project Title 
+# Markdown to HTML converter
 
 Converts Markdown file to HTML format
 
