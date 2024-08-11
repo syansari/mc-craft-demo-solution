@@ -26,8 +26,7 @@ The functionality includes subset of markdown formats.
   
 from the `mc-craft-demo-solution` directory, run the below commands to build and execute the code. 
 1. Remove previous build files`./gradlew clean`
-2. Build the code : `./gradlew build`
-3. Build the fat jar: `./gradlew jar`
+2. Build the project : `./gradlew build`
 4. To execute the code, run the following command to replace the input and output file name with the absolute path of the files:
     ` java -jar ./app/build/libs/app.jar <absolute path of input file> <<absolute path of output file>`
 
