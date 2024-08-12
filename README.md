@@ -18,7 +18,7 @@ The functionality includes subset of markdown formats.
 | `Blank line`                           | `Ignored`                                         |
 
 
-# Prerequisites
+## Prerequisites
 
  Java 17, Gradle 7.6
 
