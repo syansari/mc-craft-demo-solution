@@ -26,7 +26,7 @@ public class Application {
      * @param inputFileName  the input markdown file
      * @param outputFileName the output HTML file
      */
-    static void processMarkdownFile(String inputFileName, String outputFileName) {
+    private static void processMarkdownFile(String inputFileName, String outputFileName) {
 
         try {
             String markDownFormatText = FileUtils.getMarkdownText(inputFileName);

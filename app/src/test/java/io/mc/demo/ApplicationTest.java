@@ -48,7 +48,7 @@ class ApplicationTest {
     void testProcessMarkdownFileThrowsRuntimeException() {
 
         RuntimeException exception = assertThrows(RuntimeException.class,
-                () -> Application.processMarkdownFile(emptyInputFileName, outputFileName));
+                () -> Application.main(new String[]{emptyInputFileName, outputFileName}));
         assertTrue(exception.getMessage().contains("Error: unable to process the markdown file:"));
     }
 }

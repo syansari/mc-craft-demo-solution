@@ -7,7 +7,7 @@ package io.mc.demo.model;
 * <li>url
 * <li>index where the link ends
 * </ul><p> */
-public class LinkInfo {
+public final class LinkInfo {
 
     private final String text;
     private final String url;
