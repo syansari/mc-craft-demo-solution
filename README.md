@@ -30,7 +30,7 @@ from the `mc-craft-demo-solution` directory, run the below commands to build and
 4. To execute the code, run the following command to replace the input and output file name with the absolute path of the files:
     ` java -jar ./app/build/libs/app.jar <absolute path of input file> <<absolute path of output file>`
 
-*Example command to execute to generate the HTML document from the markdown file*
+*Example command to generate the HTML document from the markdown file*
 
 `java -jar ./app/build/libs/app.jar /Users/johndoe/Documents/junk/mc-input/test6.md /Users/johndoe/Documents/junk/output.html`
 
