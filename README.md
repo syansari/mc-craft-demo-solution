@@ -34,15 +34,13 @@ from the `mc-craft-demo-solution` directory, run the below commands to build and
 
 `java -jar ./app/build/libs/app.jar /Users/johndoe/Documents/junk/mc-input/test6.md /Users/johndoe/Documents/junk/output.html`
 
-##### Test coverage generation report, 
+### Test coverage report generation
 
-To generate the test coverage report, 
-
-from the `mc-craft-demo-solution` directory, run the below commands,
+To generate the test coverage report, from the `mc-craft-demo-solution` directory, run the below command,
 
  `./gradlew jacocoTestReport`
 
-Above command will generate test coverage report at the following path: 
+Above command will place test coverage report at the following path: 
 `mc-craft-demo-solution/app/build/reports/jacoco/test/html/index.html`
 
 
